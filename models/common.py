@@ -12,6 +12,7 @@ from collections import OrderedDict, namedtuple
 from copy import copy
 from pathlib import Path
 from urllib.parse import urlparse
+import torch.nn.functional as F
 
 import cv2
 import numpy as np
